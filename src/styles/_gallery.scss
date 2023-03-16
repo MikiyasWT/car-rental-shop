@@ -1,6 +1,7 @@
 
 
 .container {
+    position:relative;
     margin: 2rem 1rem;
     padding-left: 5rem;
     display: grid;
@@ -8,7 +9,7 @@
     //grid-template-rows: repeat(8, 1vw);
     grid-gap: 0.5rem;
     justify-content: center;
-
+    
 
 }
 

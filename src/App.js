@@ -33,15 +33,9 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      {
-        loading && <h4>Loading ......</h4>
-      }
+
       <TestComponent image={athlete2} />
-      <TestComponent image={athlete2} />
-      <TestComponent image={athlete2} />
-      <TestComponent image={athlete2} />
-      <TestComponent image={athlete2} />
-      <TestComponent image={athlete2} />
+
       <Gallery cars={cars}/>
     </div>
   );
